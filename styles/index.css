@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    font-family: monospace;
+}
+
+#mainContainer {
+    padding: 55px;
+    background-color: #ddd;
+    font-family: monospace;
+}
+
+body {
+    font-size: 15px;
+    margin: 0px;
+}
+
+#personalImage img{
+    width: 130px;
+}
+
+#imageContainer {
+    display: flex;
+}
+
+#personalImage {
+    margin-right: 40px;
+}
+
+.individualInfoContainer div {
+    display: inline-block;
+}
+
+#mailIcon, #linkedlnIcon, #githubIcon {
+    width: 20px;
+    margin-right: 10px;
+}
+
+#positionContainer {
+    margin-bottom: 15px;
+}
+
+#personalInfo a {
+    text-decoration: none;
+    color: black;
+}
+
+.individualContainer {
+    margin-bottom: 15px;
+}
+
+#navBar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #a6aaae;
+}
+
+#navBar div {
+    display: inline-block;
+    height: auto;
+    padding: 7px 20px;
+    text-align: center;
+    min-width: 50px;
+    margin-right: 15px;
+}
+
+#navBar div:hover {
+    cursor: pointer;
+}
+
+.inlineBlock div {
+    display: inline-block;
+}
+
+.inlineBlock {
+    margin-top: 5px;
+}
+
+.name a {
+    text-decoration: none;
+    color: black;
+}
+
+.name a:hover {
+    text-decoration: underline;
+}
+
+#undergradContainer {
+    margin-bottom: 25px;
+}
+
+#description li {
+    margin-bottom: 4px;
+}
+
+#about {
+    border: 2px solid black;
+}
+
+.contents {
+    display: none;;
+}
+
+#aboutContainer {
+    display: block;
+}
+
+.responsibilities {
+    margin-top: 5px;
+}
+
+#publicationsList {
+    margin-top: 5px;
+}
+
+.individualAchievements h2 {
+    margin-bottom: 10px;
+}
+
+.experienceDetails {
+    margin-top: 8px;
+}
+
+.marginBottom {
+    margin-bottom: 5px;
+}
+
+#skillContainer h4 {
+    display: inline-block;
+}
+
+.individualSkills, .individualSkills p {
+    display: inline-block;
+}
+
+.individualSkills p {
+    padding: 0px 3px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+#projectContainer {
+    margin-top: 20px;
+}
+
+.individualProject {
+    margin-top: 10px;
+}
+
+.individualProject p {
+    display: inline-block;
+}
+
+.individualProject ul {
+    margin-top: 5px;
+}
+
+#lifeImage {
+    margin-top: 8px;
+    width: 830px;
+    height: 440px;
+}
+
+#myName {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.individualSkills .header {
+    background-color: #ddd;
+}
+
+#positionContainer b {
+    font-weight: 100;
+}
+
+#positionContainer a:hover {
+    text-decoration: underline;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    #personalInfo, #navBar, #description i, .marginBottom, .individualProject p {
+        font-size: 33px;
+    }
+
+    #myName {
+        font-size: 40px;
+    }
+}
